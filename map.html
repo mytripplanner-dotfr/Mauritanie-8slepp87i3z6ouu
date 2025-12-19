@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Mauritanie</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 20.16984154, lng: -12.7962237 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":18.0735299,"lng":-15.9582372,"name":"Nouakchott","jour":1,"titre":"Arrivée à Nouakchott, première immersion","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=18.0735299,-15.9582372&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=18.0735299,-15.9582372","aiImageUrl":"jour1.jpg"},{"lat":20.5072923,"lng":-13.052978,"name":"Atar","jour":3,"titre":"Envol vers l'Adrar et Atar","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=20.5072923,-13.052978&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=20.5072923,-13.052978","aiImageUrl":"jour3.jpg"},{"lat":20.2526055,"lng":-13.0882333,"name":"Oasis de Terjit","jour":4,"titre":"L'Oasis de Terjit, un havre de paix","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=20.2526055,-13.0882333&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=20.2526055,-13.0882333","aiImageUrl":"jour4.jpg"},{"lat":21.00789,"lng":-10.940835,"name":"Région de l'Adrar","jour":5,"titre":"Trésors de l'Adrar: Anciennes cités caravanières","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=21.00789,-10.940835&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=21.00789,-10.940835","aiImageUrl":"jour5.jpg"},{"lat":21.00789,"lng":-10.940835,"name":"Désert de l'Adrar","jour":6,"titre":"Nuit sous les étoiles du Sahara","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=21.00789,-10.940835&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=21.00789,-10.940835","aiImageUrl":"jour6.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
