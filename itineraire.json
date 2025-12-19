@@ -1,0 +1,322 @@
+{
+  "pays": "Mauritanie",
+  "drapeau": "🇲🇷",
+  "symbole": "🐪",
+  "titre": "Mauritanie: Échos du Désert et Trésors Anciens",
+  "budget_total": "3250€",
+  "duree": "10 jours",
+  "temps_vol": "18h depuis Berthelot peak, maurice avec escale",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Nouakchott, première immersion",
+      "legende": "Après un long voyage, vous atterrissez dans la capitale mauritanienne. Prenez le temps de vous installer et de vous imprégner de l'ambiance locale. Une balade légère vous permettra de découvrir les premiers charmes de cette ville côtière et désertique.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "🛬 <strong>Arrivée à Nouakchott</strong>: Installation à votre hôtel pour vous reposer après le vol. Profitez de l'après-midi pour vous détendre et vous acclimater au climat.",
+        "🚶‍♂️ <strong>Balade découverte du quartier de votre hôtel</strong>: Une promenade tranquille dans les environs immédiats de votre hébergement pour sentir l'atmosphère de la ville et repérer quelques commodités."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "À savoir",
+          "texte": "Le visa est obligatoire pour la Mauritanie et peut être obtenu à l'arrivée à l'aéroport de Nouakchott (NKC) pour la plupart des nationalités."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Conseil",
+          "texte": "Prévoyez des vêtements légers mais couvrants pour respecter les coutumes locales et vous protéger du soleil."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🐠",
+      "titre": "Nouakchott, entre marché et océan",
+      "legende": "Explorez le cœur vibrant de Nouakchott avec ses marchés colorés et son port de pêche animé. C'est une journée pour s'immerger dans la vie quotidienne mauritanienne, entre les étals foisonnants et le spectacle des pirogues revenant de la mer.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "🛍️ <strong>Visite du Marché Capitale</strong>: Plongez dans l'effervescence de ce grand marché où vous trouverez de tout, des épices aux tissus, en passant par l'artisanat local. C'est une expérience sensorielle unique et un excellent endroit pour observer la vie locale.",
+        "🐟 <strong>Découverte du Port de Pêche Artisanal</strong>: Assistez au retour des pêcheurs et au déchargement des prises du jour sur la plage. Le spectacle des pirogues colorées et l'activité incessante des vendeurs et acheteurs offrent un aperçu authentique de l'économie locale."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Monnaie locale",
+          "texte": "La monnaie est l'Ouguiya mauritanienne (MRU). Il est conseillé d'avoir de petites coupures pour les marchés."
+        },
+        {
+          "symbole": "🗣️",
+          "titre": "Langues",
+          "texte": "L'arabe est la langue officielle, mais le français est largement parlé, surtout dans les zones touristiques et commerciales."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "✈️",
+      "titre": "Envol vers l'Adrar et Atar",
+      "legende": "Laissez derrière vous la capitale pour vous envoler vers le cœur du désert mauritanien, la région de l'Adrar. Atar, porte d'entrée de cette région mythique, vous accueillera avec ses paysages arides et son ambiance saharienne. Préparez-vous à une immersion totale.",
+      "lieu": "Atar",
+      "activites": [
+        "✈️ <strong>Vol intérieur vers Atar</strong>: Prenez un vol matinal depuis Nouakchott pour rejoindre Atar, la capitale de la région de l'Adrar. Ce court vol offre une vue imprenable sur les paysages désertiques qui s'étendent à perte.",
+        "🚗 <strong>Installation à Atar et découverte</strong>: Après votre arrivée et l'installation à l'hôtel, profitez de l'après-midi pour explorer Atar, une ville carrefour au milieu du désert. Visitez son marché local et imprégnez-vous de l'atmosphère saharienne."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🌡️",
+          "titre": "Climat désertique",
+          "texte": "Les températures peuvent être élevées en journée, mais les nuits sont fraîches. Prévoyez des vêtements adaptés aux variations thermiques."
+        },
+        {
+          "symbole": "💧",
+          "titre": "Hydratation",
+          "texte": "Buvez beaucoup d'eau pour éviter la déshydratation, surtout lors des excursions dans le désert."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏜️",
+      "titre": "L'Oasis de Terjit, un havre de paix",
+      "legende": "Aujourd'hui, l'aventure vous mène à l'oasis de Terjit, un véritable joyau caché au cœur du désert. Entre palmiers et sources d'eau fraîche, c'est un lieu de repos et de contemplation, offrant un contraste saisissant avec les paysages arides environnants.",
+      "lieu": "Oasis de Terjit",
+      "activites": [
+        "🚙 <strong>Excursion en 4x4 vers l'Oasis de Terjit</strong>: Partez en véhicule tout-terrain pour une journée inoubliable vers l'une des plus belles oasis de Mauritanie. Le trajet lui-même est une aventure à travers des paysages désertiques spectaculaires.",
+        "🌴 <strong>Détente et exploration de l'Oasis de Terjit</strong>: Profitez de la fraîcheur des sources naturelles et des palmiers. C'est l'endroit idéal pour se baigner, se reposer à l'ombre et admirer la beauté sereine du désert."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "L'oasis de Terjit offre des opportunités photographiques exceptionnelles, des palmiers aux formations rocheuses."
+        },
+        {
+          "symbole": "🚶",
+          "titre": "Chaussures",
+          "texte": "Prévoyez des chaussures confortables pour marcher sur le sable et les rochers autour de l'oasis."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "📜",
+      "titre": "Trésors de l'Adrar: Anciennes cités caravanières",
+      "legende": "Plongez dans l'histoire millénaire de la Mauritanie en explorant les vestiges des anciennes cités caravanières de l'Adrar. Ces villes, autrefois des centres florissants du commerce transsaharien, témoignent d'un passé riche et fascinant, au milieu des dunes et des rochers.",
+      "lieu": "Région de l'Adrar",
+      "activites": [
+        "🏛️ <strong>Visite des ruines d'Azougui</strong>: Découvrez les vestiges de cette ancienne capitale almoravide, un site historique important avec des gravures rupestres et des structures anciennes. C'est un témoignage fascinant de l'histoire médiévale de la région.",
+        "🚶‍♂️ <strong>Randonnée légère dans les paysages de l'Adrar</strong>: Profitez de l'après-midi pour une marche douce à travers les paysages rocheux et sablonneux de l'Adrar. Admirez les formations géologiques uniques et le silence impressionnant du désert."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "📚",
+          "titre": "Histoire",
+          "texte": "L'Adrar est le berceau de l'histoire mauritanienne, avec des cités comme Chinguetti et Ouadane (plus éloignées) classées au patrimoine mondial de l'UNESCO."
+        },
+        {
+          "symbole": "☀️",
+          "titre": "Protection solaire",
+          "texte": "N'oubliez pas chapeau, lunettes de soleil et crème solaire, même en hiver, le soleil du désert est intense."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🌌",
+      "titre": "Nuit sous les étoiles du Sahara",
+      "legende": "Vivez une expérience inoubliable en passant une nuit dans le désert. Loin de toute pollution lumineuse, le ciel étoilé du Sahara est un spectacle à couper le souffle. C'est une immersion totale dans la culture nomade, avec un dîner traditionnel et des contes sous les étoiles.",
+      "lieu": "Désert de l'Adrar",
+      "activites": [
+        "⛺ <strong>Campement dans le désert</strong>: Installation d'un campement bédouin pour la nuit, une expérience authentique pour se connecter avec la nature et la culture locale. Profitez du calme et de la beauté du désert au coucher du soleil.",
+        "✨ <strong>Observation des étoiles et dîner traditionnel</strong>: Après un dîner préparé sur place, admirez la voûte céleste d'une clarté exceptionnelle. Les guides locaux pourront partager des histoires et légendes du désert."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🛌",
+          "titre": "Confort",
+          "texte": "Les campements sont généralement équipés de tentes confortables et de matelas. Prévoyez un sac de couchage léger si vous êtes frileux."
+        },
+        {
+          "symbole": "📵",
+          "titre": "Déconnexion",
+          "texte": "Profitez de cette nuit pour vous déconnecter et apprécier le silence et la grandeur du désert."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🔙",
+      "titre": "Retour à Nouakchott",
+      "legende": "Après une nuit magique dans le désert, il est temps de reprendre la route vers Nouakchott. Ce retour vous permettra de revoir les paysages désertiques sous un autre angle et de vous préparer à la dernière partie de votre voyage, entre détente et dernières découvertes.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "🚙 <strong>Retour en 4x4 vers Atar</strong>: Après le petit-déjeuner au campement, reprenez la route vers Atar. Profitez des derniers panoramas désertiques et des arrêts photos possibles en chemin.",
+        "✈️ <strong>Vol intérieur Atar - Nouakchott</strong>: Prenez votre vol de retour vers la capitale en fin de journée. Une fois à Nouakchott, installez-vous à votre hôtel et profitez d'une soirée libre pour vous reposer."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "Si vous n'avez pas eu le temps, Atar est une bonne occasion pour acheter des souvenirs artisanaux avant de quitter l'Adrar."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Repas",
+          "texte": "Dégustez un bon repas dans un restaurant de Nouakchott pour retrouver les saveurs de la ville."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🎨",
+      "titre": "Artisanat et culture à Nouakchott",
+      "legende": "Cette journée est dédiée à la découverte de l'artisanat mauritanien et à l'approfondissement de la culture locale. Flânez dans les galeries et les centres artisanaux, et terminez par une visite du Musée National pour une meilleure compréhension de l'histoire du pays.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "🏺 <strong>Visite du Centre Artisanal de Nouakchott</strong>: Explorez les ateliers où les artisans travaillent le cuir, le bois, l'argent et les tapis. C'est l'endroit idéal pour trouver des cadeaux uniques et observer les techniques traditionnelles.",
+        "🖼️ <strong>Découverte du Musée National de Mauritanie</strong>: Plongez dans l'histoire et la culture mauritaniennes à travers ses collections archéologiques et ethnographiques. Le musée offre un aperçu précieux du riche passé du pays."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": " bargaining",
+          "titre": "Négociation",
+          "texte": "La négociation est une pratique courante dans les marchés et centres artisanaux. N'hésitez pas à marchander avec le sourire."
+        },
+        {
+          "symbole": "🕌",
+          "titre": "Respect",
+          "texte": "La Mauritanie est un pays musulman. Respectez les coutumes locales, notamment en matière vestimentaire et lors des visites de lieux de culte."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🏖️",
+      "titre": "Détente côtière et saveurs locales",
+      "legende": "Profitez de votre dernière journée complète pour vous détendre au bord de l'océan Atlantique. La plage de Nouakchott offre un cadre paisible pour se ressourcer. Terminez votre séjour par un dîner mémorable, savourant les délices de la cuisine mauritanienne.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "🌊 <strong>Détente sur la plage de Nouakchott</strong>: Passez la matinée à vous relaxer sur la plage, observer les vagues de l'Atlantique et les activités locales. C'est un moment de calme avant le départ.",
+        "🍽️ <strong>Dîner d'adieu avec spécialités mauritaniennes</strong>: Savourez un dernier repas typique dans un restaurant local. Goûtez au Thieboudienne (riz au poisson) ou au Méchoui (agneau rôti) pour clore votre aventure culinaire."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🌅",
+          "titre": "Coucher de soleil",
+          "texte": "Les couchers de soleil sur l'Atlantique à Nouakchott sont souvent spectaculaires, ne les manquez pas."
+        },
+        {
+          "symbole": "☕",
+          "titre": "Thé mauritanien",
+          "texte": "Le thé est une institution en Mauritanie. Participez à une cérémonie du thé pour une expérience culturelle authentique."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🛫",
+      "titre": "Départ de Nouakchott",
+      "legende": "C'est le dernier jour de votre voyage en Mauritanie. Après un petit-déjeuner tranquille, il sera temps de vous diriger vers l'aéroport pour votre vol retour, emportant avec vous des souvenirs inoubliables du désert et de l'hospitalité mauritanienne.",
+      "lieu": "Nouakchott",
+      "activites": [
+        "☕ <strong>Petit-déjeuner et derniers achats</strong>: Profitez d'un dernier petit-déjeuner mauritanien. Si le temps le permet, faites quelques derniers achats de souvenirs ou de produits locaux.",
+        "🛫 <strong>Transfert à l'aéroport et vol retour</strong>: Organisez votre transfert vers l'aéroport international de Nouakchott (NKC) pour votre vol de retour. Bon voyage!"
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "🧳",
+          "titre": "Bagages",
+          "texte": "Vérifiez les restrictions de poids et de taille de vos bagages pour votre vol international."
+        },
+        {
+          "symbole": "🛂",
+          "titre": "Formalités",
+          "texte": "Prévoyez suffisamment de temps à l'aéroport pour les formalités d'enregistrement et de sécurité."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "1300€/pers (Vol international Berthelot peak - Nouakchott A/R, classe économique)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "450€/pers (Vols intérieurs Nouakchott-Atar A/R, 4x4 excursions désert, taxis)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "400€/pers (10 jours, 3 repas/jour, restaurants locaux et campement)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "800€/pers (9 nuits en hôtels 3 étoiles et campement désert)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "300€/pers (Entrées sites, guides locaux, expérience campement)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de novembre à mars.",
+      "symbole": "🍁"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La population mauritanienne est un mélange de groupes ethniques, principalement les Maures (arabo-berbères) et diverses ethnies subsahariennes (Peuls, Soninkés, Wolofs). L'hospitalité est une valeur fondamentale.",
+      "symbole": "🤝"
+    },
+    {
+      "titre": "La Mauritanie est un pays du Sahel et du Maghreb, majoritairement désertique, avec une longue côte atlantique. C'est un carrefour historique des civilisations sahariennes et subsahariennes.",
+      "symbole": "🌍"
+    },
+    {
+      "titre": "Le train du minerai de fer, reliant Zouérat à Nouadhibou, est l'un des plus longs et des plus lourds du monde. Il est parfois possible de voyager à bord pour une expérience insolite.",
+      "symbole": "🚂"
+    },
+    {
+      "titre": "La Mauritanie est l'un des derniers bastions de la culture nomade, avec une forte tradition orale et poétique. Le thé est une institution sociale et culturelle.",
+      "symbole": "📜"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations générales sur la Mauritanie",
+      "titre": "Office National du Tourisme Mauritanien",
+      "url": "https://www.tourisme.mr/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Prévisions météo pour Nouakchott",
+      "titre": "Météo Mauritanie",
+      "url": "https://www.accuweather.com/fr/mr/nouakchott/248301/weather-forecast/248301",
+      "symbole": "🌤️"
+    },
+    {
+      "legende": "Informations sur les vols vers la Mauritanie",
+      "titre": "Air Mauritanie",
+      "url": "https://www.airmauritanie.mr/",
+      "symbole": "✈️"
+    }
+  ]
+}
